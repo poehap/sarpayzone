@@ -1,0 +1,27 @@
+/* EXAMPLE 3
+
+line height is 20px by default so add 30px top and bottom to equal the new .navbar-brand 80px height  */
+
+.navigation .navbar-brand {
+    height: 130px;
+}
+
+.navigation .nav>li>a {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navigation .nav>li>form {
+    margin-top: 40px;
+}
+
+.navigation .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+/* test to search bar */
+/* .down {
+    margin-top: 40px;
+} */
